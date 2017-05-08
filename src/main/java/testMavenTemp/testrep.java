@@ -30,7 +30,7 @@ public class testrep implements ITestListener {
     	takeScreenShot(methodName);
     }
     
-    public void takeScreenShot(String methodName) {
+    public void takeScreenShotASNEW(String methodName) {
     	//get the driver
     	driver=new FirefoxDriver();
     	 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
